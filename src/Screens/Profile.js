@@ -6,7 +6,7 @@ const Profile = () => {
 
     const route = useRoute()
     
-    console.log(route.params)
+    // console.log(route.params)
 
     const {UserName , UserEmail , UserPassword} = route.params
     return (

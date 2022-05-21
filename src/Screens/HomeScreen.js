@@ -5,7 +5,7 @@ import {useNavigation} from '@react-navigation/native'
 const HomeScreen = ({navigation}) => {
 
     const navigationhook = useNavigation();
-    console.log(navigationhook)
+    // console.log(navigationhook)
 
     const [Name , setName]=useState("")
     const [Email , setEmail]=useState("")
